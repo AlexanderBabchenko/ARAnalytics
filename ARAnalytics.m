@@ -21,11 +21,6 @@ static BOOL _ARLogShouldPrintStdout = YES;
 @end
 #endif
 
-#if !TARGET_OS_IPHONE
-@implementation UIViewController @end
-@implementation UINavigationController @end
-#endif
-
 @implementation ARAnalytics
 
 + (void)initialize
